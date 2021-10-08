@@ -1,0 +1,131 @@
+body{
+    background-image: linear-gradient(to right,pink , yellow);
+}
+
+.grid-container{
+    display: grid;
+    grid-gap:10px;
+    /* background-image: linear-gradient(to right,pink , yellow); */
+}
+
+.header{
+    display: grid;
+    grid-gap:10px;
+    padding: 10px;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.header>div{
+    background-color: pink;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.second-sectn{
+    display: grid;
+    grid-gap:10px;
+    padding:10px;
+    grid-template-columns: auto auto  auto;
+}
+  
+
+.section1{
+    grid-area:1 / 1 / span 2 / span 2;
+    height: 300px;
+    color: aliceblue;
+    background-image: url("https://images.pexels.com/photos/1309593/pexels-photo-1309593.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-size: cover;
+}
+
+.section1>.head{
+    display: inline-block;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: pink;
+}
+
+
+.section2,.section3{
+    background-color: pink;
+    opacity: 0.9;
+    grid-template-columns: auto;
+    text-align: center;
+    
+}
+
+.third-section{
+    display: grid;
+    grid-gap:10px;
+    padding:10px;
+    grid-template-columns: auto auto  auto  auto;
+}
+ .block{
+     background-color: aliceblue;
+     color:black;
+     text-align: center;
+ }
+
+ .fourth-section{
+     display: grid;
+      margin: 10px;
+     grid-template-columns: auto;
+     background-color: aliceblue;
+     color:black;
+    }
+
+ .fourth-section>img{
+     width:300px;
+     height: 250px;
+     padding:10px;
+ }  
+ 
+ .fourth-section >.title{
+     font-weight: bold;
+     margin-left: 340px;
+     margin-top: -150px;
+ }
+ #h3{
+     margin-left: 340px; 
+     margin-top: -190px;
+ }
+
+ button{
+     font-weight: bold;
+     border: none;
+     background-color: pink;
+     color:black;
+     width: 100px;
+     height: 40px;
+     margin-left: 340px; 
+     margin-top: -60px;
+ }
+
+ .fifth-section{
+     display: grid;
+     padding: 10px;
+     grid-gap:10px;
+     grid-template-columns: auto 100px auto ;
+ }
+
+ .fifth-section>div{
+     text-align: center;
+ }
+
+ .fifth-section>div:first-of-type{
+     height: 15px;
+     background: linear-gradient(to right, rgba(240, 151, 151,0 ), rgba(255,0,255,1));
+ }
+ .fifth-section>div:last-of-type{
+    height: 15px;
+    background: linear-gradient(to right, rgba(255,0,255,1), rgba(240, 151, 151, 0));
+}
+
+ .final-section{
+    display: grid;
+    grid-gap:10px;
+    row-gap: 20px;
+    padding: 10px;
+    grid-template-columns: auto auto auto auto auto;
+ 
+ }
+ 

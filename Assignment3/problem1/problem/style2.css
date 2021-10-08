@@ -1,0 +1,99 @@
+body{
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+
+    height:500px;
+    background-image: url('https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+
+  .firstpage{
+     min-height:600px;
+     background-image: url('https://images.pexels.com/photos/1036657/pexels-photo-1036657.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'); 
+     background-attachment: fixed;
+      background-position: center; 
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: 10px; 
+  }
+
+
+   .head{
+    display: inline-block;
+    height:50px;
+    padding : 10px;
+    margin-top: 270px;
+    margin-left: 600px;
+    text-align: center;
+    background-color:black;
+    opacity: 0.6;
+    font-size:35px;
+    color:white;
+  }
+
+  .secondpage{
+    min-height:600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/2341830/pexels-photo-2341830.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    margin: 10px;
+  }
+
+  .p1{
+     display: inline-block;
+     padding:5px;
+     margin-top: 200px;
+     text-align: center;
+     background-color:black;
+     font-size:20px;
+     color:white;
+   }
+
+   .thirdpage{
+    min-height:600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/2440061/pexels-photo-2440061.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    margin: 10px;
+  }
+
+
+
+   .p2{
+     display: inline-block;
+     margin-top: 200px;
+     padding:5px;
+     text-align: center;
+     background-color:white;
+     font-size:20px;
+     color:black;
+   }
+
+   .bottomh1{
+     display: inline-block;
+     text-align: center;
+     padding: 10px;
+     margin-left: 600px;
+     margin-top: 200px;
+     color:white;
+     background-color: black;
+     opacity: 0.6;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-style: italic;
+   }
+
+
+
+ 

@@ -1,0 +1,283 @@
+.container{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+}
+
+.container>div{
+    margin :10px;
+}
+
+
+.header>.section1{
+    background-color: #919995;
+    display: flex;
+    flex-direction: row; 
+}
+.section1>div{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.block1{
+    align-items: center;
+    justify-items: center;
+}
+
+.block1>.title{
+    margin-top: 60px;
+    font-size: 50px;
+}
+
+.block2>.h4{
+margin-top: 80px;
+font-size: 20px;
+}
+
+.block2{
+    align-items: center;
+}
+  
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: transparent;
+    margin-right: 100px;
+  }
+  
+  ul.topnav li {
+      float: right;
+     }
+  
+  ul.topnav li a {
+   display: block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {
+      background-color: rgb(214, 206, 206);
+      color:black;
+}
+  
+  ul.topnav li a.active {
+      background-color: #919995;
+    }
+
+.block3{
+    background-color: #919995;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    padding: 10px;
+    column-gap: 0em;
+    color:white;
+    font-size: 15px;
+}
+ .h1{
+    color: rgb(9, 75, 75);
+}
+
+button{
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+button:hover{
+color:black;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.main>div{
+    /* background-color: #f1f1f1; */
+    width: 400px;
+    margin: 15px;
+    text-align: center;
+    /* font-size: 30px; */
+}
+
+.main>img{
+    width:300px;
+    background: cover;
+}
+
+.footer{
+    display: flex;
+    background-color: #919995;
+    height: 70px;
+    
+}
+.footer>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+
+}
+
+.f1 p{
+    align-items:center ;
+}
+  
+  /* Registration */
+
+  .registranh {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+
+}
+
+.registranh>div{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.registrnmain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.registrnmain>div{
+    
+    width: 600px;
+    margin: 15px;
+    height: 300px;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+ 
+input{
+    border-radius: 4px;
+    padding: 5px;
+    width:400px
+}
+
+.btn{
+    border-radius: 4px;
+    color:black;
+    padding: 10px;
+    width: 100px;
+}
+
+/* Shedule section */
+
+.schedulenmain{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 10px;
+    
+   }
+
+.schedulenmain>div{
+   margin: 10px;
+  /* line-height: 75px;
+  font-size: 30px; */
+   }
+   .parts1{
+      width:400px;
+      text-align: right;
+    }
+    .parts2{
+        width: 700px;
+        text-align: left;
+    }
+
+/* speakermain */
+.speakermain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.speakermain>div{
+    width: 600px;
+    margin: 15px;
+    height: 700px;
+    padding: 10px;
+    text-align: left;
+   
+}
+
+.part2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+
+.part2>div{
+    text-align: center;
+    width: 300px;
+    margin: 15px;
+    height: 150px;
+    padding: 10px;
+  
+    border: 1px solid black;
+   
+}
+
+.part2 img{
+    border-radius: 100%;
+    margin-top: -50px;
+    
+}
+.imgheading{
+      font-size: medium;
+      font-weight: bold;
+    /* display: inline-block; */
+    background: transparent;
+    border: 1 px solid black;
+}
+
+   
+ /* Venue section */
+ .venuemain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .venuemain>div{
+    width: 600px;
+    margin: 15px;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+   
+}
